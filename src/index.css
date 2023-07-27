@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.header input {
+  width: 100%;
+  padding: 10px;
+}
+.header button {
+  padding: 10px 20px;
+  width: 20%;
+  background: green;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user {
+  background-color: rgba(241, 224, 224, 0.767);
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user button {
+  font-size: 16px;
+  padding: 5px 8px;
+  font-weight: 900;
+  color: brown;
+  cursor: pointer;
+}
